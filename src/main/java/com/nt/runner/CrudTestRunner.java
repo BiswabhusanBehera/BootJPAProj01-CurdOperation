@@ -103,7 +103,7 @@ public class CrudTestRunner implements CommandLineRunner{
 			System.out.println("42 Customer Info::"+custService.showCustomerByid(42));
 		}
 		catch(Exception e) {
-			e.printStackTrace();
+			System.out.println(e.printStackTrace());
 		}
 		
 	}
