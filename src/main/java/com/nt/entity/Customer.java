@@ -23,7 +23,7 @@ public class Customer {
 	private String cname;
 	@Column(name = "CADD",length = 20)
 	private String caddrs;
-	@Column(name = "BILLAMT")
+	@Column(name = "BILLAMOUNT")
 	private Float billAmt;
 
 }
